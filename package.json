@@ -1,0 +1,12 @@
+{
+  "name": "start-ts",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tsc && node ./dist",
+    "oo": "npx tsc && node ./dist/oo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
